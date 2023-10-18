@@ -80,6 +80,72 @@ main {
     background-color: #e2e8f0;
     grid-column: 3 / 13;
     grid-row: 3 / 13;
+    display: grid;
+    grid-template-columns: 1fr 350px;
+    padding: 2rem 2rem;
+    gap: 30px;
+}
+
+.project-title {
+
+}
+
+.project-container {
+    height: 99%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.alert-container {
+    height: 99%;
+    display: grid;
+    gap: 80px;
+}
+
+.announcement-container {
+    height: 90%;
+    display: grid;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+}
+
+.bottom-border {
+    box-shadow: 0px 24px 3px -24px #a7a7a7;
+}
+
+.announcements {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.trending-container {
+    height: 90%;
+    display: grid;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 1rem 1rem;
+}
+
+.trending {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: 60px 1fr;
+}
+
+.user-icon {
+    width: 50px;
+}
+
+.cards {
+    background-color: #fff;
+    border-left: #f0b429 solid 10px;
+    border-radius: 10px;
+    padding: 2rem 1rem;
 }
 
 section {
